@@ -1,6 +1,9 @@
 # vinyl-shop
+Welcome to my React.js application!
+
 https://vinyl-shop-lt.herokuapp.com/
-# Tools
+
+# Technology Stack
 - create-react-app cli
 - SASS
 - Redux
