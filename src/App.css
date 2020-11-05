@@ -1,0 +1,15 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding: 20px 40px;
+}
+
+a {
+  /*for menu SHOP/CONTACT*/
+  text-decoration: none;
+  color: black;
+}
+
+/* removes padding on email/psw input controls */
+* {
+  box-sizing: border-box;
+}
