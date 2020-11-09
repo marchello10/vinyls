@@ -10,6 +10,7 @@ https://vinyl-shop-lt.herokuapp.com/
   - React Redux
   - Redux Persist
   - Redux Logger
+  - Redux Thunk
   - Reselect
 - Firebase
   - Authentication

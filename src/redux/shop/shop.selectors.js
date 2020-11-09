@@ -24,4 +24,14 @@ export const selectAllVinyls = createSelector(
 export const selectGenre = (genreUrl) => createSelector(
     [selectGenres],
     (genres) => genres ? (genres[genreUrl]) : null
-)
+);
+
+export const selectIsGenresFetching = createSelector(
+    [selectShop],
+    shop => shop.isFetching
+);
+
+export const selectIsGenresLoaded = createSelector(
+    [selectShop],
+    shop => !!shop.genres
+);
